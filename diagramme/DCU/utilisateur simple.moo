@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{43B33BB0-94D5-4672-8339-5765A876D7E5}" Label="" LastModificationDate="1488972878" Name="ModeleOrienteObjet_1" Objects="15" Symbols="10" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{43B33BB0-94D5-4672-8339-5765A876D7E5}" Label="" LastModificationDate="1488989839" Name="ModeleOrienteObjet_1" Objects="15" Symbols="10" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -1335,9 +1335,9 @@ Shadow=0</a:DisplayPreferences>
 </o:UseCaseAssociationSymbol>
 <o:UseCaseAssociationSymbol Id="o14">
 <a:CreationDate>1488384111</a:CreationDate>
-<a:ModificationDate>1488384200</a:ModificationDate>
-<a:Rect>((-22950,-2662), (-10650,5338))</a:Rect>
-<a:ListOfPoints>((-22950,5063),(-22950,5338),(-10650,-2662))</a:ListOfPoints>
+<a:ModificationDate>1488989839</a:ModificationDate>
+<a:Rect>((-22950,-3462), (-10650,5063))</a:Rect>
+<a:ListOfPoints>((-22950,5063),(-22950,-3462),(-10650,-3462))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1431,8 +1431,8 @@ LABL 0 Arial,8,N</a:FontList>
 </o:UseCaseSymbol>
 <o:UseCaseSymbol Id="o15">
 <a:CreationDate>1488383933</a:CreationDate>
-<a:ModificationDate>1488384082</a:ModificationDate>
-<a:Rect>((-14274,-5736), (-4177,-337))</a:Rect>
+<a:ModificationDate>1488989839</a:ModificationDate>
+<a:Rect>((-14274,-6536), (-4177,-1137))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:LineWidth>1</a:LineWidth>
 <a:FillColor>16777152</a:FillColor>
