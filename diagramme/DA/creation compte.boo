@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{4E95316C-4CC8-4C17-A879-76146C0ED498}" Label="" LastModificationDate="1488988574" Name="utlisateur simple" Objects="24" Symbols="22" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{36B94EB8-7660-4E68-B4F2-850AF8DD04A9}" Label="" LastModificationDate="1488992926" Name="creation compte" Objects="30" Symbols="29" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -7,12 +7,12 @@
 <o:RootObject Id="o1">
 <c:Children>
 <o:Model Id="o2">
-<a:ObjectID>4E95316C-4CC8-4C17-A879-76146C0ED498</a:ObjectID>
-<a:Name>utlisateur simple</a:Name>
-<a:Code>utlisateur_simple</a:Code>
-<a:CreationDate>1488985890</a:CreationDate>
+<a:ObjectID>36B94EB8-7660-4E68-B4F2-850AF8DD04A9</a:ObjectID>
+<a:Name>creation compte</a:Name>
+<a:Code>creation_compte</a:Code>
+<a:CreationDate>1488991621</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987622</a:ModificationDate>
+<a:ModificationDate>1488992926</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -949,12 +949,12 @@ ORMapping=No
 NameToCode=No</a:ModelOptionsText>
 <c:ObjectLanguage>
 <o:Shortcut Id="o3">
-<a:ObjectID>96E1734F-75F8-457D-B613-D75F326D582E</a:ObjectID>
+<a:ObjectID>29B2B691-6429-4DDD-88F1-7AACA97B3AE0</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
-<a:CreationDate>1488985890</a:CreationDate>
+<a:CreationDate>1488991621</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488985890</a:ModificationDate>
+<a:ModificationDate>1488991621</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
@@ -963,12 +963,12 @@ NameToCode=No</a:ModelOptionsText>
 </c:ObjectLanguage>
 <c:ExtendedModelDefinitions>
 <o:Shortcut Id="o4">
-<a:ObjectID>E94B2D5A-1025-4D40-85B2-894F41115317</a:ObjectID>
+<a:ObjectID>E0D64AD3-2EDA-4F88-972C-CD29E00B9AC2</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
-<a:CreationDate>1488985890</a:CreationDate>
+<a:CreationDate>1488991621</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488985890</a:ModificationDate>
+<a:ModificationDate>1488991621</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
@@ -980,10 +980,10 @@ NameToCode=No</a:ModelOptionsText>
 </c:DefaultDiagram>
 <c:Flows>
 <o:ActivityFlow Id="o6">
-<a:ObjectID>DE266E54-6217-4DA9-8CC7-8BFAA310F291</a:ObjectID>
-<a:CreationDate>1488987345</a:CreationDate>
+<a:ObjectID>E6E33353-DA25-4664-8B54-549AF552261E</a:ObjectID>
+<a:CreationDate>1488991998</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987345</a:ModificationDate>
+<a:ModificationDate>1488991998</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <c:Object1>
 <o:Activity Ref="o7"/>
@@ -993,10 +993,10 @@ NameToCode=No</a:ModelOptionsText>
 </c:Object2>
 </o:ActivityFlow>
 <o:ActivityFlow Id="o9">
-<a:ObjectID>BF8DC034-F309-40A6-96B3-D88CB0B9E9DC</a:ObjectID>
-<a:CreationDate>1488987347</a:CreationDate>
+<a:ObjectID>05280B76-3387-4D6B-A094-D5580C6F49AB</a:ObjectID>
+<a:CreationDate>1488992170</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987347</a:ModificationDate>
+<a:ModificationDate>1488992170</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <c:Object1>
 <o:Activity Ref="o10"/>
@@ -1006,176 +1006,242 @@ NameToCode=No</a:ModelOptionsText>
 </c:Object2>
 </o:ActivityFlow>
 <o:ActivityFlow Id="o11">
-<a:ObjectID>8E00C710-CEFA-4077-9473-A60086A7310D</a:ObjectID>
-<a:CreationDate>1488987355</a:CreationDate>
+<a:ObjectID>611564EE-9129-43A2-9830-BFF354AA2ABF</a:ObjectID>
+<a:CreationDate>1488992175</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987355</a:ModificationDate>
+<a:ModificationDate>1488992175</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <c:Object1>
 <o:Activity Ref="o12"/>
-</c:Object1>
-<c:Object2>
-<o:Decision Ref="o13"/>
-</c:Object2>
-</o:ActivityFlow>
-<o:ActivityFlow Id="o14">
-<a:ObjectID>BC13EABA-96CF-4C53-A24B-318648F30C76</a:ObjectID>
-<a:CreationDate>1488987418</a:CreationDate>
-<a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987418</a:ModificationDate>
-<a:Modifier>Amady PDG AW</a:Modifier>
-<c:Object1>
-<o:Activity Ref="o15"/>
-</c:Object1>
-<c:Object2>
-<o:Decision Ref="o13"/>
-</c:Object2>
-</o:ActivityFlow>
-<o:ActivityFlow Id="o16">
-<a:ObjectID>17FE1CA3-F1D0-41A5-8200-E879FE0669AA</a:ObjectID>
-<a:CreationDate>1488987474</a:CreationDate>
-<a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987474</a:ModificationDate>
-<a:Modifier>Amady PDG AW</a:Modifier>
-<c:Object1>
-<o:Decision Ref="o13"/>
 </c:Object1>
 <c:Object2>
 <o:Activity Ref="o10"/>
 </c:Object2>
 </o:ActivityFlow>
-<o:ActivityFlow Id="o17">
-<a:ObjectID>188444EE-8FD1-4A67-9C9E-22DE05D18A63</a:ObjectID>
-<a:CreationDate>1488987618</a:CreationDate>
+<o:ActivityFlow Id="o13">
+<a:ObjectID>157B72A4-4C82-4B40-A7A6-B14707B80301</a:ObjectID>
+<a:CreationDate>1488992178</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987618</a:ModificationDate>
+<a:ModificationDate>1488992178</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <c:Object1>
-<o:End Ref="o18"/>
+<o:Activity Ref="o14"/>
 </c:Object1>
 <c:Object2>
 <o:Activity Ref="o12"/>
 </c:Object2>
 </o:ActivityFlow>
-<o:ActivityFlow Id="o19">
-<a:ObjectID>510D143A-0F62-49F7-9281-DCFD569DB279</a:ObjectID>
-<a:CreationDate>1488987622</a:CreationDate>
+<o:ActivityFlow Id="o15">
+<a:ObjectID>248D1E58-8E92-4E7F-A080-D05BD0451900</a:ObjectID>
+<a:CreationDate>1488992270</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987622</a:ModificationDate>
+<a:ModificationDate>1488992270</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <c:Object1>
-<o:End Ref="o20"/>
+<o:Decision Ref="o16"/>
 </c:Object1>
 <c:Object2>
-<o:Activity Ref="o15"/>
+<o:Activity Ref="o14"/>
+</c:Object2>
+</o:ActivityFlow>
+<o:ActivityFlow Id="o17">
+<a:ObjectID>114B328A-7226-4853-86D3-E83D31096C1F</a:ObjectID>
+<a:CreationDate>1488992293</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992293</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Object1>
+<o:Activity Ref="o18"/>
+</c:Object1>
+<c:Object2>
+<o:Decision Ref="o16"/>
+</c:Object2>
+</o:ActivityFlow>
+<o:ActivityFlow Id="o19">
+<a:ObjectID>D4AAA104-ED4E-44CF-8175-1BA69EF4F9B2</a:ObjectID>
+<a:CreationDate>1488992562</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992562</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Object1>
+<o:Activity Ref="o20"/>
+</c:Object1>
+<c:Object2>
+<o:Activity Ref="o18"/>
+</c:Object2>
+</o:ActivityFlow>
+<o:ActivityFlow Id="o21">
+<a:ObjectID>16D70D94-69CC-4296-8C0C-196290F80F31</a:ObjectID>
+<a:CreationDate>1488992601</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992601</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Object1>
+<o:Activity Ref="o22"/>
+</c:Object1>
+<c:Object2>
+<o:Activity Ref="o20"/>
+</c:Object2>
+</o:ActivityFlow>
+<o:ActivityFlow Id="o23">
+<a:ObjectID>F992242F-5D53-4276-96EE-AA44D50EF7F9</a:ObjectID>
+<a:CreationDate>1488992871</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992871</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Object1>
+<o:Activity Ref="o10"/>
+</c:Object1>
+<c:Object2>
+<o:Decision Ref="o16"/>
+</c:Object2>
+</o:ActivityFlow>
+<o:ActivityFlow Id="o24">
+<a:ObjectID>4AFEDD93-AC02-4794-A5A1-1F48BCFD2B58</a:ObjectID>
+<a:CreationDate>1488992926</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992926</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Object1>
+<o:End Ref="o25"/>
+</c:Object1>
+<c:Object2>
+<o:Activity Ref="o22"/>
 </c:Object2>
 </o:ActivityFlow>
 </c:Flows>
-<c:ObjectNodes>
-<o:ObjectNode Id="o21">
-<a:ObjectID>C41D9930-FA05-4883-97FB-E79F1FD172C4</a:ObjectID>
-<a:Name>visualiser emploie</a:Name>
-<a:Code>visualiser_emploie</a:Code>
-<a:CreationDate>1488986289</a:CreationDate>
-<a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488986417</a:ModificationDate>
-<a:Modifier>Amady PDG AW</a:Modifier>
-<a:DataType>int</a:DataType>
-</o:ObjectNode>
-</c:ObjectNodes>
 <c:Activities>
 <o:Activity Id="o7">
-<a:ObjectID>3371C5F2-5CE4-4A96-8977-19696889CFD9</a:ObjectID>
-<a:Name>demande de pages des emploies</a:Name>
-<a:Code>demande_de_pages_des_emploies</a:Code>
-<a:CreationDate>1488987255</a:CreationDate>
+<a:ObjectID>D6F7DB24-0EB3-4993-A7BE-9DCB5E1C1992</a:ObjectID>
+<a:Name>demande de formulaire</a:Name>
+<a:Code>demande_de_formulaire</a:Code>
+<a:CreationDate>1488991751</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488988546</a:ModificationDate>
+<a:ModificationDate>1488991962</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:ActionType>UNDEF</a:ActionType>
 <c:OrganizationUnit>
-<o:OrganizationUnit Ref="o22"/>
-</c:OrganizationUnit>
-</o:Activity>
-<o:Activity Id="o10">
-<a:ObjectID>F7D97401-8290-407D-9F6F-55F8625B1B45</a:ObjectID>
-<a:Name>traitement des pages</a:Name>
-<a:Code>traitement_des_pages</a:Code>
-<a:CreationDate>1488987257</a:CreationDate>
-<a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488988561</a:ModificationDate>
-<a:Modifier>Amady PDG AW</a:Modifier>
-<a:ActionType>UNDEF</a:ActionType>
-<c:OrganizationUnit>
-<o:OrganizationUnit Ref="o23"/>
+<o:OrganizationUnit Ref="o26"/>
 </c:OrganizationUnit>
 </o:Activity>
 <o:Activity Id="o12">
-<a:ObjectID>B40244A8-ABDD-42B0-B703-7A02CECA4D43</a:ObjectID>
-<a:Name>afficher liste emploie</a:Name>
-<a:Code>afficher_liste_emploie</a:Code>
-<a:CreationDate>1488987259</a:CreationDate>
+<a:ObjectID>7102304D-1AB9-4450-8D77-942F5925D968</a:ObjectID>
+<a:Name>remplir formulaire</a:Name>
+<a:Code>remplir_formulaire</a:Code>
+<a:CreationDate>1488991757</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987786</a:ModificationDate>
+<a:ModificationDate>1488992097</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:ActionType>UNDEF</a:ActionType>
 <c:OrganizationUnit>
-<o:OrganizationUnit Ref="o23"/>
+<o:OrganizationUnit Ref="o26"/>
 </c:OrganizationUnit>
 </o:Activity>
-<o:Activity Id="o15">
-<a:ObjectID>FE8A22B8-BBE1-41B4-A1B4-620F31D28480</a:ObjectID>
-<a:Name>Message d&#39;erreur</a:Name>
-<a:Code>Message_d_erreur</a:Code>
-<a:CreationDate>1488987378</a:CreationDate>
+<o:Activity Id="o14">
+<a:ObjectID>21699E52-5CE1-467C-9798-7467661CBFF4</a:ObjectID>
+<a:Name>verification formulaire</a:Name>
+<a:Code>verification_formulaire</a:Code>
+<a:CreationDate>1488991759</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987399</a:ModificationDate>
+<a:ModificationDate>1488992436</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:ActionType>UNDEF</a:ActionType>
 <c:OrganizationUnit>
-<o:OrganizationUnit Ref="o23"/>
+<o:OrganizationUnit Ref="o27"/>
+</c:OrganizationUnit>
+</o:Activity>
+<o:Activity Id="o10">
+<a:ObjectID>B0F7F21D-FC83-40C6-A5D8-5EE173DBF901</a:ObjectID>
+<a:Name>renvoie formulaire</a:Name>
+<a:Code>renvoie_formulaire</a:Code>
+<a:CreationDate>1488991857</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992049</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:ActionType>UNDEF</a:ActionType>
+<c:OrganizationUnit>
+<o:OrganizationUnit Ref="o27"/>
+</c:OrganizationUnit>
+</o:Activity>
+<o:Activity Id="o18">
+<a:ObjectID>E9F32849-A558-4B5D-8364-5B76CD5DAAF7</a:ObjectID>
+<a:Name>mail d&#39;activation</a:Name>
+<a:Code>mail_d_activation</a:Code>
+<a:CreationDate>1488992282</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992512</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:ActionType>UNDEF</a:ActionType>
+<c:OrganizationUnit>
+<o:OrganizationUnit Ref="o27"/>
+</c:OrganizationUnit>
+</o:Activity>
+<o:Activity Id="o20">
+<a:ObjectID>6C80908B-82D2-4E7A-B0CB-4E87E6EA5B07</a:ObjectID>
+<a:Name>mail activer</a:Name>
+<a:Code>mail_activer</a:Code>
+<a:CreationDate>1488992282</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992578</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:ActionType>UNDEF</a:ActionType>
+<c:OrganizationUnit>
+<o:OrganizationUnit Ref="o26"/>
+</c:OrganizationUnit>
+</o:Activity>
+<o:Activity Id="o22">
+<a:ObjectID>AF9BA40E-DDA9-40C5-921A-69A6AF6AACB6</a:ObjectID>
+<a:Name>enregistrement</a:Name>
+<a:Code>enregistrement</a:Code>
+<a:CreationDate>1488992283</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488992615</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:ActionType>UNDEF</a:ActionType>
+<c:OrganizationUnit>
+<o:OrganizationUnit Ref="o27"/>
 </c:OrganizationUnit>
 </o:Activity>
 </c:Activities>
 <c:Decisions>
-<o:Decision Id="o13">
-<a:ObjectID>983CC12D-B85E-4A14-A2A1-6AE1660AE116</a:ObjectID>
-<a:Name>si page existe</a:Name>
-<a:Code>si_page_existe</a:Code>
-<a:CreationDate>1488986797</a:CreationDate>
+<o:Decision Id="o16">
+<a:ObjectID>12F6C40E-14B4-4E56-97C3-86A38F6CA81F</a:ObjectID>
+<a:Name>si requete de verification</a:Name>
+<a:Code>si_requete_de_verification</a:Code>
+<a:CreationDate>1488992241</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488988479</a:ModificationDate>
+<a:ModificationDate>1488992480</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 </o:Decision>
 </c:Decisions>
 <c:OrganizationUnits>
-<o:OrganizationUnit Id="o23">
-<a:ObjectID>453A0279-F2CC-4090-89C9-F92F9A76E8C5</a:ObjectID>
-<a:Name>visualiser concours</a:Name>
-<a:Code>visualiser_concours</a:Code>
-<a:CreationDate>1488985918</a:CreationDate>
-<a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488985968</a:ModificationDate>
-<a:Modifier>Amady PDG AW</a:Modifier>
-</o:OrganizationUnit>
-<o:OrganizationUnit Id="o22">
-<a:ObjectID>3FAF75EE-F48C-4B05-B0C6-890EE474DB06</a:ObjectID>
+<o:OrganizationUnit Id="o26">
+<a:ObjectID>8DF56C86-86EB-46B4-A922-96BEF1244D2A</a:ObjectID>
 <a:Name>utilisateur simple</a:Name>
 <a:Code>utilisateur_simple</a:Code>
-<a:CreationDate>1488986027</a:CreationDate>
+<a:CreationDate>1488991630</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488986041</a:ModificationDate>
+<a:ModificationDate>1488991724</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+</o:OrganizationUnit>
+<o:OrganizationUnit Id="o27">
+<a:ObjectID>8940A970-7265-48C7-8002-464379CAD4A7</a:ObjectID>
+<a:Name>creation compte</a:Name>
+<a:Code>creation_compte</a:Code>
+<a:CreationDate>1488991631</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488991702</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 </o:OrganizationUnit>
 </c:OrganizationUnits>
 <c:ActivityDiagrams>
 <o:ActivityDiagram Id="o5">
-<a:ObjectID>CD18BA1B-0774-478F-9EAA-3CB839D80794</a:ObjectID>
+<a:ObjectID>8FB21F81-075B-4C60-AC40-B2D5568D71EF</a:ObjectID>
 <a:Name>DiagrammeActivites_1</a:Name>
 <a:Code>DiagrammeActivites_1</a:Code>
-<a:CreationDate>1488985890</a:CreationDate>
+<a:CreationDate>1488991621</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987622</a:ModificationDate>
+<a:ModificationDate>1488992926</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1663,11 +1729,11 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:FlowSymbol Id="o24">
-<a:CreationDate>1488987347</a:CreationDate>
-<a:ModificationDate>1488988574</a:ModificationDate>
-<a:Rect>((-4784,6898), (4042,7348))</a:Rect>
-<a:ListOfPoints>((-4784,7123),(4042,7123))</a:ListOfPoints>
+<o:FlowSymbol Id="o28">
+<a:CreationDate>1488992170</a:CreationDate>
+<a:ModificationDate>1488992880</a:ModificationDate>
+<a:Rect>((-8763,6986), (6005,7436))</a:Rect>
+<a:ListOfPoints>((-8763,7211),(6005,7211))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1675,26 +1741,110 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ActivitySymbol Ref="o25"/>
+<o:ActivitySymbol Ref="o29"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ActivitySymbol Ref="o26"/>
+<o:ActivitySymbol Ref="o30"/>
 </c:DestinationSymbol>
 <c:Object>
 <o:ActivityFlow Ref="o9"/>
 </c:Object>
 </o:FlowSymbol>
-<o:SwimlaneGroupSymbol Id="o27">
-<a:CreationDate>1488985918</a:CreationDate>
-<a:ModificationDate>1488987538</a:ModificationDate>
-<a:Rect>((-17662,-25263), (15914,14737))</a:Rect>
+<o:FlowSymbol Id="o31">
+<a:CreationDate>1488992175</a:CreationDate>
+<a:ModificationDate>1488992880</a:ModificationDate>
+<a:Rect>((-6287,2887), (8480,6787))</a:Rect>
+<a:ListOfPoints>((8480,6787),(8480,2887),(-6287,2887))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivitySymbol Ref="o30"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivitySymbol Ref="o32"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:ActivityFlow Ref="o11"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o33">
+<a:CreationDate>1488992178</a:CreationDate>
+<a:ModificationDate>1488992883</a:ModificationDate>
+<a:Rect>((-6587,-524), (6299,2400))</a:Rect>
+<a:ListOfPoints>((-6587,2400),(-6587,-524),(6299,-524))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivitySymbol Ref="o32"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivitySymbol Ref="o34"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:ActivityFlow Ref="o13"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o35">
+<a:CreationDate>1488992562</a:CreationDate>
+<a:ModificationDate>1488992896</a:ModificationDate>
+<a:Rect>((-7112,-12788), (4213,-11288))</a:Rect>
+<a:ListOfPoints>((4213,-12788),(4213,-11288),(-7112,-11288))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivitySymbol Ref="o36"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivitySymbol Ref="o37"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:ActivityFlow Ref="o19"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o38">
+<a:CreationDate>1488992601</a:CreationDate>
+<a:ModificationDate>1488992893</a:ModificationDate>
+<a:Rect>((-6662,-16832), (6088,-11507))</a:Rect>
+<a:ListOfPoints>((-6662,-11507),(-6662,-16832),(6088,-16832))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivitySymbol Ref="o37"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivitySymbol Ref="o39"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:ActivityFlow Ref="o21"/>
+</c:Object>
+</o:FlowSymbol>
+<o:SwimlaneGroupSymbol Id="o40">
+<a:CreationDate>1488991630</a:CreationDate>
+<a:ModificationDate>1488991716</a:ModificationDate>
+<a:Rect>((-15587,-24289), (21914,15711))</a:Rect>
 <a:LineColor>0</a:LineColor>
 <c:SubSymbols>
-<o:SwimlaneSymbol Id="o28">
-<a:CreationDate>1488986027</a:CreationDate>
-<a:ModificationDate>1488987345</a:ModificationDate>
+<o:SwimlaneSymbol Id="o41">
+<a:CreationDate>1488991630</a:CreationDate>
+<a:ModificationDate>1488992637</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-17662,-25263), (-3996,14737))</a:Rect>
+<a:Rect>((-15587,-24289), (537,15711))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16773874</a:FillColor>
@@ -1707,11 +1857,11 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:KeepAspect>1</a:KeepAspect>
 <a:KeepCenter>1</a:KeepCenter>
 <c:SubSymbols>
-<o:FlowSymbol Id="o29">
-<a:CreationDate>1488987345</a:CreationDate>
-<a:ModificationDate>1488987345</a:ModificationDate>
-<a:Rect>((-11077,7948), (-10606,11512))</a:Rect>
-<a:ListOfPoints>((-10802,11512),(-10881,7948))</a:ListOfPoints>
+<o:FlowSymbol Id="o42">
+<a:CreationDate>1488991998</a:CreationDate>
+<a:ModificationDate>1488991998</a:ModificationDate>
+<a:Rect>((-10239,7537), (-9745,11436))</a:Rect>
+<a:ListOfPoints>((-10078,11436),(-9907,7537))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1719,20 +1869,20 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:FontList>SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:StartSymbol Ref="o30"/>
+<o:StartSymbol Ref="o43"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ActivitySymbol Ref="o25"/>
+<o:ActivitySymbol Ref="o29"/>
 </c:DestinationSymbol>
 <c:Object>
 <o:ActivityFlow Ref="o6"/>
 </c:Object>
 </o:FlowSymbol>
-<o:StartSymbol Id="o30">
-<a:CreationDate>1488986085</a:CreationDate>
-<a:ModificationDate>1488986085</a:ModificationDate>
+<o:StartSymbol Id="o43">
+<a:CreationDate>1488991743</a:CreationDate>
+<a:ModificationDate>1488991743</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-11402,10913), (-10203,12112))</a:Rect>
+<a:Rect>((-10678,10837), (-9479,12036))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1748,11 +1898,11 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <o:Start Ref="o8"/>
 </c:Object>
 </o:StartSymbol>
-<o:ActivitySymbol Id="o25">
-<a:CreationDate>1488987255</a:CreationDate>
-<a:ModificationDate>1488987286</a:ModificationDate>
+<o:ActivitySymbol Id="o29">
+<a:CreationDate>1488991751</a:CreationDate>
+<a:ModificationDate>1488991949</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-17062,6348), (-4596,8347))</a:Rect>
+<a:Rect>((-13309,6112), (-4217,8111))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1766,190 +1916,11 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Activity Ref="o7"/>
 </c:Object>
 </o:ActivitySymbol>
-</c:SubSymbols>
-<c:Object>
-<o:OrganizationUnit Ref="o22"/>
-</c:Object>
-</o:SwimlaneSymbol>
-<o:SwimlaneSymbol Id="o31">
-<a:CreationDate>1488985918</a:CreationDate>
-<a:ModificationDate>1488987622</a:ModificationDate>
+<o:ActivitySymbol Id="o32">
+<a:CreationDate>1488991757</a:CreationDate>
+<a:ModificationDate>1488992197</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-3996,-25263), (15914,14737))</a:Rect>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>12615680</a:LineColor>
-<a:FillColor>16773874</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>512</a:GradientFillMode>
-<a:GradientEndColor>16308424</a:GradientEndColor>
-<a:KeepAspect>1</a:KeepAspect>
-<a:KeepCenter>1</a:KeepCenter>
-<c:SubSymbols>
-<o:FlowSymbol Id="o32">
-<a:CreationDate>1488987622</a:CreationDate>
-<a:ModificationDate>1488987622</a:ModificationDate>
-<a:Rect>((12604,-15827), (13088,-12527))</a:Rect>
-<a:ListOfPoints>((12902,-12527),(12789,-15827))</a:ListOfPoints>
-<a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>1</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>SOURCE 0 Arial,8,N
-DESTINATION 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:ActivitySymbol Ref="o33"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:EndSymbol Ref="o34"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:ActivityFlow Ref="o19"/>
-</c:Object>
-</o:FlowSymbol>
-<o:FlowSymbol Id="o35">
-<a:CreationDate>1488987618</a:CreationDate>
-<a:ModificationDate>1488987799</a:ModificationDate>
-<a:Rect>((790,-13127), (2148,-8775))</a:Rect>
-<a:ListOfPoints>((2148,-8775),(2148,-10662),(790,-10662),(790,-13127))</a:ListOfPoints>
-<a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>1</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>SOURCE 0 Arial,8,N
-DESTINATION 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:ActivitySymbol Ref="o36"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:EndSymbol Ref="o37"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:ActivityFlow Ref="o17"/>
-</c:Object>
-</o:FlowSymbol>
-<o:FlowSymbol Id="o38">
-<a:CreationDate>1488987474</a:CreationDate>
-<a:ModificationDate>1488988578</a:ModificationDate>
-<a:Rect>((2153,1601), (3106,6373))</a:Rect>
-<a:ListOfPoints>((3106,6373),(2153,6373),(2153,1601))</a:ListOfPoints>
-<a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>1</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>SOURCE 0 Arial,8,N
-DESTINATION 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:ActivitySymbol Ref="o26"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:BaseDecisionSymbol Ref="o39"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:ActivityFlow Ref="o16"/>
-</c:Object>
-</o:FlowSymbol>
-<o:FlowSymbol Id="o40">
-<a:CreationDate>1488987418</a:CreationDate>
-<a:ModificationDate>1488988485</a:ModificationDate>
-<a:Rect>((5774,-12152), (14369,-66))</a:Rect>
-<a:ListOfPoints>((5774,-66),(14369,-66),(14369,-12152))</a:ListOfPoints>
-<a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>1</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>SOURCE 0 Arial,8,N
-DESTINATION 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:BaseDecisionSymbol Ref="o39"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:ActivitySymbol Ref="o33"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:ActivityFlow Ref="o14"/>
-</c:Object>
-</o:FlowSymbol>
-<o:FlowSymbol Id="o41">
-<a:CreationDate>1488987355</a:CreationDate>
-<a:ModificationDate>1488988485</a:ModificationDate>
-<a:Rect>((2250,-7650), (3560,-1605))</a:Rect>
-<a:ListOfPoints>((2250,-1605),(2250,-3557),(3560,-3557),(3560,-7650))</a:ListOfPoints>
-<a:CornerStyle>1</a:CornerStyle>
-<a:ArrowStyle>1</a:ArrowStyle>
-<a:LineColor>16744448</a:LineColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>SOURCE 0 Arial,8,N
-DESTINATION 0 Arial,8,N</a:FontList>
-<c:SourceSymbol>
-<o:BaseDecisionSymbol Ref="o39"/>
-</c:SourceSymbol>
-<c:DestinationSymbol>
-<o:ActivitySymbol Ref="o36"/>
-</c:DestinationSymbol>
-<c:Object>
-<o:ActivityFlow Ref="o11"/>
-</c:Object>
-</o:FlowSymbol>
-<o:BaseDecisionSymbol Id="o39">
-<a:CreationDate>1488986797</a:CreationDate>
-<a:ModificationDate>1488988485</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((-1558,-1621), (5864,1617))</a:Rect>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>32896</a:LineColor>
-<a:FillColor>12648447</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DEXP 0 Arial,8,N
-DEXN 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>512</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<a:KeepCenter>1</a:KeepCenter>
-<a:ManuallyResized>1</a:ManuallyResized>
-<c:Object>
-<o:Decision Ref="o13"/>
-</c:Object>
-</o:BaseDecisionSymbol>
-<o:NoteSymbol Id="o42">
-<a:Text>OK</a:Text>
-<a:CreationDate>1488986934</a:CreationDate>
-<a:ModificationDate>1488987559</a:ModificationDate>
-<a:Rect>((-3171,-6528), (-456,-4727))</a:Rect>
-<a:TextStyle>4130</a:TextStyle>
-<a:AutoAdjustToText>0</a:AutoAdjustToText>
-<a:LineColor>16711680</a:LineColor>
-<a:FillColor>16777215</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontName>Arial,8,N</a:FontName>
-<a:ManuallyResized>1</a:ManuallyResized>
-</o:NoteSymbol>
-<o:ActivitySymbol Id="o26">
-<a:CreationDate>1488987257</a:CreationDate>
-<a:ModificationDate>1488988574</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((2822,5749), (10938,7748))</a:Rect>
-<a:LineColor>12615680</a:LineColor>
-<a:FillColor>16777152</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N
-LABL 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>16777215</a:GradientEndColor>
-<c:Object>
-<o:Activity Ref="o10"/>
-</c:Object>
-</o:ActivitySymbol>
-<o:ActivitySymbol Id="o36">
-<a:CreationDate>1488987259</a:CreationDate>
-<a:ModificationDate>1488987799</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((-1517,-8949), (6674,-6950))</a:Rect>
+<a:Rect>((-12698,1888), (-5632,3887))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1963,11 +1934,11 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Activity Ref="o12"/>
 </c:Object>
 </o:ActivitySymbol>
-<o:ActivitySymbol Id="o33">
-<a:CreationDate>1488987378</a:CreationDate>
-<a:ModificationDate>1488987548</a:ModificationDate>
+<o:ActivitySymbol Id="o37">
+<a:CreationDate>1488992282</a:CreationDate>
+<a:ModificationDate>1488992893</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((8623,-12926), (15314,-10927))</a:Rect>
+<a:Rect>((-11987,-12138), (-5988,-10139))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>16777152</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1978,14 +1949,213 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Activity Ref="o15"/>
+<o:Activity Ref="o20"/>
 </c:Object>
 </o:ActivitySymbol>
-<o:NoteSymbol Id="o43">
-<a:Text>Pas OK</a:Text>
-<a:CreationDate>1488987505</a:CreationDate>
-<a:ModificationDate>1488987551</a:ModificationDate>
-<a:Rect>((11140,-9227), (13690,-6901))</a:Rect>
+</c:SubSymbols>
+<c:Object>
+<o:OrganizationUnit Ref="o26"/>
+</c:Object>
+</o:SwimlaneSymbol>
+<o:SwimlaneSymbol Id="o44">
+<a:CreationDate>1488991631</a:CreationDate>
+<a:ModificationDate>1488992926</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((537,-24289), (21914,15711))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>16773874</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>512</a:GradientFillMode>
+<a:GradientEndColor>16308424</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<a:KeepCenter>1</a:KeepCenter>
+<c:SubSymbols>
+<o:FlowSymbol Id="o45">
+<a:CreationDate>1488992926</a:CreationDate>
+<a:ModificationDate>1488992926</a:ModificationDate>
+<a:Rect>((7281,-22234), (8281,-17359))</a:Rect>
+<a:ListOfPoints>((7725,-17359),(7837,-22234))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivitySymbol Ref="o39"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:EndSymbol Ref="o46"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:ActivityFlow Ref="o24"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o47">
+<a:CreationDate>1488992871</a:CreationDate>
+<a:ModificationDate>1488992886</a:ModificationDate>
+<a:Rect>((12188,-6112), (18359,7169))</a:Rect>
+<a:ListOfPoints>((18359,-6112),(18359,1926),(12188,1926),(12188,7169))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:BaseDecisionSymbol Ref="o48"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivitySymbol Ref="o30"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:ActivityFlow Ref="o23"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o49">
+<a:CreationDate>1488992293</a:CreationDate>
+<a:ModificationDate>1488992896</a:ModificationDate>
+<a:Rect>((9821,-11812), (11255,-8093))</a:Rect>
+<a:ListOfPoints>((11255,-8093),(11255,-8187),(9821,-8187),(9821,-11812))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:BaseDecisionSymbol Ref="o48"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivitySymbol Ref="o36"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:ActivityFlow Ref="o17"/>
+</c:Object>
+</o:FlowSymbol>
+<o:FlowSymbol Id="o50">
+<a:CreationDate>1488992270</a:CreationDate>
+<a:ModificationDate>1488992886</a:ModificationDate>
+<a:Rect>((9354,-4130), (11379,-713))</a:Rect>
+<a:ListOfPoints>((9354,-713),(9354,-2685),(11379,-2685),(11379,-4130))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>SOURCE 0 Arial,8,N
+DESTINATION 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivitySymbol Ref="o34"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:BaseDecisionSymbol Ref="o48"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:ActivityFlow Ref="o15"/>
+</c:Object>
+</o:FlowSymbol>
+<o:ActivitySymbol Id="o34">
+<a:CreationDate>1488991759</a:CreationDate>
+<a:ModificationDate>1488992883</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((4685,-1261), (13175,738))</a:Rect>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Activity Ref="o14"/>
+</c:Object>
+</o:ActivitySymbol>
+<o:ActivitySymbol Id="o30">
+<a:CreationDate>1488991857</a:CreationDate>
+<a:ModificationDate>1488992880</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((5706,6462), (12922,8461))</a:Rect>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Activity Ref="o10"/>
+</c:Object>
+</o:ActivitySymbol>
+<o:BaseDecisionSymbol Id="o48">
+<a:CreationDate>1488992241</a:CreationDate>
+<a:ModificationDate>1488992886</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((4079,-8113), (18431,-4111))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>32896</a:LineColor>
+<a:FillColor>12648447</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DEXP 0 Arial,8,N
+DEXN 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>512</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepCenter>1</a:KeepCenter>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Decision Ref="o16"/>
+</c:Object>
+</o:BaseDecisionSymbol>
+<o:ActivitySymbol Id="o36">
+<a:CreationDate>1488992282</a:CreationDate>
+<a:ModificationDate>1488992896</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((3298,-13337), (9914,-11338))</a:Rect>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Activity Ref="o18"/>
+</c:Object>
+</o:ActivitySymbol>
+<o:ActivitySymbol Id="o39">
+<a:CreationDate>1488992283</a:CreationDate>
+<a:ModificationDate>1488992891</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((4738,-17463), (10737,-15464))</a:Rect>
+<a:LineColor>12615680</a:LineColor>
+<a:FillColor>16777152</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Activity Ref="o22"/>
+</c:Object>
+</o:ActivitySymbol>
+<o:NoteSymbol Id="o51">
+<a:Text>OK</a:Text>
+<a:CreationDate>1488992298</a:CreationDate>
+<a:ModificationDate>1488992898</a:ModificationDate>
+<a:Rect>((6314,-10389), (8339,-8438))</a:Rect>
 <a:TextStyle>4130</a:TextStyle>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>16711680</a:LineColor>
@@ -1994,11 +2164,24 @@ LABL 0 Arial,8,N</a:FontList>
 <a:FontName>Arial,8,N</a:FontName>
 <a:ManuallyResized>1</a:ManuallyResized>
 </o:NoteSymbol>
-<o:EndSymbol Id="o37">
-<a:CreationDate>1488987598</a:CreationDate>
-<a:ModificationDate>1488987613</a:ModificationDate>
+<o:NoteSymbol Id="o52">
+<a:Text>Pas OK</a:Text>
+<a:CreationDate>1488992321</a:CreationDate>
+<a:ModificationDate>1488992877</a:ModificationDate>
+<a:Rect>((18689,-3338), (21314,-1387))</a:Rect>
+<a:TextStyle>4130</a:TextStyle>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16711680</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontName>Arial,8,N</a:FontName>
+<a:ManuallyResized>1</a:ManuallyResized>
+</o:NoteSymbol>
+<o:EndSymbol Id="o46">
+<a:CreationDate>1488992920</a:CreationDate>
+<a:ModificationDate>1488992920</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((40,-13877), (1539,-12378))</a:Rect>
+<a:Rect>((7088,-22984), (8587,-21485))</a:Rect>
 <a:LineColor>12615680</a:LineColor>
 <a:FillColor>12615680</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2011,32 +2194,12 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <a:KeepCenter>1</a:KeepCenter>
 <a:KeepSize>1</a:KeepSize>
 <c:Object>
-<o:End Ref="o18"/>
-</c:Object>
-</o:EndSymbol>
-<o:EndSymbol Id="o34">
-<a:CreationDate>1488987603</a:CreationDate>
-<a:ModificationDate>1488987603</a:ModificationDate>
-<a:IconMode>-1</a:IconMode>
-<a:Rect>((12040,-16577), (13539,-15078))</a:Rect>
-<a:LineColor>12615680</a:LineColor>
-<a:FillColor>12615680</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontList>STRN 0 Arial,8,N
-DISPNAME 0 Arial,8,N</a:FontList>
-<a:BrushStyle>6</a:BrushStyle>
-<a:GradientFillMode>65</a:GradientFillMode>
-<a:GradientEndColor>12632256</a:GradientEndColor>
-<a:KeepAspect>1</a:KeepAspect>
-<a:KeepCenter>1</a:KeepCenter>
-<a:KeepSize>1</a:KeepSize>
-<c:Object>
-<o:End Ref="o20"/>
+<o:End Ref="o25"/>
 </c:Object>
 </o:EndSymbol>
 </c:SubSymbols>
 <c:Object>
-<o:OrganizationUnit Ref="o23"/>
+<o:OrganizationUnit Ref="o27"/>
 </c:Object>
 </o:SwimlaneSymbol>
 </c:SubSymbols>
@@ -2046,43 +2209,34 @@ DISPNAME 0 Arial,8,N</a:FontList>
 </c:ActivityDiagrams>
 <c:Starts>
 <o:Start Id="o8">
-<a:ObjectID>A77377B6-0DD6-4D15-9A3E-3799DBB34F70</a:ObjectID>
+<a:ObjectID>E8E2275F-78EE-4669-9DB7-0AAF43751960</a:ObjectID>
 <a:Name>Debut_1</a:Name>
 <a:Code>Debut_1</a:Code>
-<a:CreationDate>1488986085</a:CreationDate>
+<a:CreationDate>1488991743</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488986085</a:ModificationDate>
+<a:ModificationDate>1488991743</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 </o:Start>
 </c:Starts>
 <c:Ends>
-<o:End Id="o18">
-<a:ObjectID>79C6D72B-0909-47D7-81BF-284E9A42714E</a:ObjectID>
+<o:End Id="o25">
+<a:ObjectID>4518D229-8DAC-4FE0-B9DF-C5D4A0AAC459</a:ObjectID>
 <a:Name>Fin_1</a:Name>
 <a:Code>Fin_1</a:Code>
-<a:CreationDate>1488987598</a:CreationDate>
+<a:CreationDate>1488992920</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987598</a:ModificationDate>
-<a:Modifier>Amady PDG AW</a:Modifier>
-</o:End>
-<o:End Id="o20">
-<a:ObjectID>B097A2D1-E6B2-4A13-AB8F-22D9099F0011</a:ObjectID>
-<a:Name>Fin_2</a:Name>
-<a:Code>Fin_2</a:Code>
-<a:CreationDate>1488987603</a:CreationDate>
-<a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488987603</a:ModificationDate>
+<a:ModificationDate>1488992920</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 </o:End>
 </c:Ends>
 <c:TargetModels>
-<o:TargetModel Id="o44">
-<a:ObjectID>CCC21951-044D-444F-A2EA-FF73ABFF55F6</a:ObjectID>
+<o:TargetModel Id="o53">
+<a:ObjectID>68905DC5-32D1-4978-BC30-27799EAF1825</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
-<a:CreationDate>1488985890</a:CreationDate>
+<a:CreationDate>1488991621</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488985890</a:ModificationDate>
+<a:ModificationDate>1488991621</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
@@ -2091,13 +2245,13 @@ DISPNAME 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o45">
-<a:ObjectID>A7A17719-8A65-4CCC-A82E-0921F9F6E6F3</a:ObjectID>
+<o:TargetModel Id="o54">
+<a:ObjectID>2B33A0DC-07C3-4380-B89D-5901BDD47269</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
-<a:CreationDate>1488985890</a:CreationDate>
+<a:CreationDate>1488991621</a:CreationDate>
 <a:Creator>Amady PDG AW</a:Creator>
-<a:ModificationDate>1488985890</a:ModificationDate>
+<a:ModificationDate>1488991621</a:ModificationDate>
 <a:Modifier>Amady PDG AW</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
