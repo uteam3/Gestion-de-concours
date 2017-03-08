@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{152AA152-4B51-41AF-847B-93288A62085A}" Label="" LastModificationDate="1488973121" Name="Mcd_utilisateurSimple" Objects="74" Symbols="5" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>152AA152-4B51-41AF-847B-93288A62085A</a:ObjectID>
+<a:Name>Mcd_utilisateurSimple</a:Name>
+<a:Code>MCD_UTILISATEURSIMPLE</a:Code>
+<a:CreationDate>1488966257</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488970603</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Conceptual Data Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Conceptual options]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+InfoUnique=Yes
+AllowReuse=Yes
+InfoAllowReuse=Yes
+Notation=2
+RlshUnique=Yes
+DefaultDttp=
+DomnCopyDttp=Yes
+DomnCopyChck=No
+DomnCopyRule=No
+DomnCopyExat=No
+DomnCopyMand=No
+DttpFullName=Yes
+
+[ModelOptions\Conceptual options\NamingOptionsTemplates]
+
+[ModelOptions\Conceptual options\ClssNamingOptions]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+RefrUpdRule=RESTRICT
+RefrDelRule=RESTRICT
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ClassPrefix=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No
+
+[ModelOptions\Generate\Oom]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=Yes
+
+[ModelOptions\Generate\Ldm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No</a:ModelOptionsText>
+<c:ConceptualDiagrams>
+<o:ConceptualDiagram Id="o3">
+<a:ObjectID>DAE7997C-DA74-447E-A31F-6211AB6D80A0</a:ObjectID>
+<a:Name>Diagramme_1</a:Name>
+<a:Code>DIAGRAMME_1</a:Code>
+<a:CreationDate>1488966259</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488970603</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\CDM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+PckgStrn=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package_SymbolLayout=
+Display Model Version=Yes
+EnttAttr=Yes
+PentMode=0
+PentNb=5
+EnttDttp=Yes
+EnttDomn=Yes
+EnttShowDomn=No
+EnttMand=Yes
+EnttCIdf=Yes
+EnttKeyI=Yes
+PentStrn=Yes
+IdtfStrn=Yes
+RlshName=Yes
+RlshRole=Yes
+RlshCard=No
+RlshDmnt=Yes
+RlshStrn=Yes
+InhrName=Yes
+InhrStrn=Yes
+Entity.IconPicture=No
+Entity_SymbolLayout=
+Association.IconPicture=No
+Association_SymbolLayout=
+Inheritance.IconPicture=No
+Inheritance_SymbolLayout=
+EnttStrn=Yes
+EnttCmmt=No
+AsscStrn=Yes
+AsscCmmt=No
+AsscAttr=Yes
+AsscDttp=Yes
+AsscDomn=Yes
+AsscShowDomn=No
+AsscMand=Yes
+AsscDLim=Yes
+AsscNb=5
+PassStrn=1
+LinkRole=Yes
+LinkCard=Yes
+LinkStrn=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ENTT]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0, 0, 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RLSH]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+NAMAFont=Arial,8,N
+NAMAFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ASSC]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3000
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINK]
+ROLEFont=Arial,8,N
+ROLEFont color=0, 0, 0
+CARDFont=Arial,8,N
+CARDFont color=0, 0, 0
+Line style=1
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMINHR]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1600
+Height=1000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINH]
+Line style=1
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:EntitySymbol Id="o4">
+<a:CreationDate>1488966274</a:CreationDate>
+<a:ModificationDate>1488972813</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-13273,-15372), (3359,-4734))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o5"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o6">
+<a:CreationDate>1488966277</a:CreationDate>
+<a:ModificationDate>1488973121</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-23855,522), (-8691,11160))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o7"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o8">
+<a:CreationDate>1488966278</a:CreationDate>
+<a:ModificationDate>1488973116</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((7478,550), (24110,11188))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o9"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o10">
+<a:CreationDate>1488966279</a:CreationDate>
+<a:ModificationDate>1488973090</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-7957,23154), (5971,35740))</a:Rect>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Entity Ref="o11"/>
+</c:Object>
+</o:EntitySymbol>
+</c:Symbols>
+</o:ConceptualDiagram>
+</c:ConceptualDiagrams>
+<c:DefaultDiagram>
+<o:ConceptualDiagram Ref="o3"/>
+</c:DefaultDiagram>
+<c:Entities>
+<o:Entity Id="o5">
+<a:ObjectID>45E4121B-1608-4CD0-9709-40A0993FD6ED</a:ObjectID>
+<a:Name>emploie</a:Name>
+<a:Code>EMPLOIE</a:Code>
+<a:CreationDate>1488966274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967775</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o12">
+<a:ObjectID>48ACE265-ADC8-4EDE-82B0-92E01A4122B2</a:ObjectID>
+<a:Name>id_emp</a:Name>
+<a:Code>ID_EMP</a:Code>
+<a:CreationDate>1488967666</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967676</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o13"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o12"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o13">
+<a:ObjectID>8ED9B9DA-07C6-4EB4-AEC4-DAF9BCB146B4</a:ObjectID>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967676</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o14"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o15">
+<a:ObjectID>2091C07A-017F-4949-9B19-7CB5E2CD183B</a:ObjectID>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o16"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o17">
+<a:ObjectID>A79F4702-1432-4315-8C34-570FC5C7221F</a:ObjectID>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o18"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o19">
+<a:ObjectID>6F92428E-196D-4DEC-BC37-56F8F4FA6E97</a:ObjectID>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o20"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o21">
+<a:ObjectID>88D51D08-9610-42FD-AC89-3D14C87B1894</a:ObjectID>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o22"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o23">
+<a:ObjectID>21ACC63D-8573-4EBD-A358-E0C95FEC0B73</a:ObjectID>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o24"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o25">
+<a:ObjectID>B8048895-955E-4261-88B4-462BAE57471E</a:ObjectID>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o26"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o27">
+<a:ObjectID>67037629-D1D8-4B08-99DA-61FE2F46EA77</a:ObjectID>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o28"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o7">
+<a:ObjectID>00A373C3-95E5-4FA1-B709-3DA66E12D9F8</a:ObjectID>
+<a:Name>concours</a:Name>
+<a:Code>CONCOURS</a:Code>
+<a:CreationDate>1488966277</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967266</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o29">
+<a:ObjectID>2018BD3C-CE80-4AFA-9FB8-0A81FC6182FD</a:ObjectID>
+<a:Name>id_c</a:Name>
+<a:Code>ID_C</a:Code>
+<a:CreationDate>1488967252</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967266</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o30"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o29"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o30">
+<a:ObjectID>075A4903-5E2B-4342-8016-3B50AAF20583</a:ObjectID>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967266</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o31"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o32">
+<a:ObjectID>3397DE74-98BB-4F42-AC0E-AD651A406E6B</a:ObjectID>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o33"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o34">
+<a:ObjectID>DED1CE7B-3421-4E7D-B777-035AAFAB4691</a:ObjectID>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o20"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o35">
+<a:ObjectID>63C6840E-E68C-4139-A258-B0E85CAB1865</a:ObjectID>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o36"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o37">
+<a:ObjectID>EFCB372E-6B4E-4C7D-9762-60BDF4516098</a:ObjectID>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o38"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o39">
+<a:ObjectID>EF3B380B-9BEE-4E93-8A34-6F8C66A80EDF</a:ObjectID>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o40"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o41">
+<a:ObjectID>E9ACB073-1697-415C-A577-F5EEB1215D02</a:ObjectID>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o42"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o43">
+<a:ObjectID>9015F9D5-9064-4174-974D-D848B42B0508</a:ObjectID>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o44"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o9">
+<a:ObjectID>900D6AC2-F9AC-46F8-822B-A242BB27B63F</a:ObjectID>
+<a:Name>Stage</a:Name>
+<a:Code>STAGE</a:Code>
+<a:CreationDate>1488966278</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968066</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o45">
+<a:ObjectID>F680CF44-7156-4EF1-917D-A4EA249281F7</a:ObjectID>
+<a:Name>id_stage</a:Name>
+<a:Code>ID_STAGE</a:Code>
+<a:CreationDate>1488968057</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968066</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o46"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o45"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o46">
+<a:ObjectID>522EE74B-4E4D-4075-82CA-9A431484AA3D</a:ObjectID>
+<a:CreationDate>1488967781</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968066</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o47"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o48">
+<a:ObjectID>73BACFA6-FB93-4EF6-942F-06CA3B6C1AFC</a:ObjectID>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o49"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o50">
+<a:ObjectID>B223B8FB-2D49-4347-BF74-C1B4DEB97B2F</a:ObjectID>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o16"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o51">
+<a:ObjectID>DE15DE96-7D0D-41D6-9843-27F00BFD4461</a:ObjectID>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o52"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o53">
+<a:ObjectID>2E65F6D8-0154-4FDA-819C-D3912C766D9B</a:ObjectID>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o24"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o54">
+<a:ObjectID>E0FD0F42-C4F3-4B60-B05E-0961ADDB786F</a:ObjectID>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o55"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o56">
+<a:ObjectID>A9B69F0D-BE13-4902-B339-E9919BD91606</a:ObjectID>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o26"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o57">
+<a:ObjectID>B0B2347D-3D41-44AF-B066-AE6963C87B9C</a:ObjectID>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o28"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o11">
+<a:ObjectID>DD8A0F53-E377-4C6C-B942-42DEC3830410</a:ObjectID>
+<a:Name>utilisateur</a:Name>
+<a:Code>UTILISATEUR</a:Code>
+<a:CreationDate>1488966279</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488970999</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o58">
+<a:ObjectID>5FDCCFBA-8D08-4EC0-937E-574F13A2CBF2</a:ObjectID>
+<a:Name>id_user</a:Name>
+<a:Code>ID_USER</a:Code>
+<a:CreationDate>1488968710</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488970999</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o59"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o58"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o59">
+<a:ObjectID>C6D7DE2F-5B85-45C0-9E46-2117F073A178</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968721</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o60"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o61">
+<a:ObjectID>0D5A0D08-42F5-4414-A76C-C21DDCD44AF1</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o62"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o63">
+<a:ObjectID>1353D25C-8CB7-4945-A1E6-96508E893C18</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o64"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o65">
+<a:ObjectID>454EACA8-B868-4219-82F1-0F147303ADFE</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o66"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o67">
+<a:ObjectID>7E51184A-2A93-4676-AFA1-D9E31743467B</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o68"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o69">
+<a:ObjectID>D054810C-8836-4086-9B3C-4639860C65D0</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o70"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o71">
+<a:ObjectID>658B1618-9EDA-4A81-8BA5-A91B0BA825F9</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o72"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o73">
+<a:ObjectID>59F31CEE-B974-4E75-9038-F66D3D83FA34</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o74"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o75">
+<a:ObjectID>2B36569A-BA9E-4514-9C8B-820D264707F6</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o76"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o77">
+<a:ObjectID>E46D8255-247E-4660-AE14-798A191F5DDC</a:ObjectID>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o78"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+</c:Entities>
+<c:DataItems>
+<o:DataItem Id="o31">
+<a:ObjectID>6939E6B6-D5C3-45C3-B25F-500D32633F27</a:ObjectID>
+<a:Name>id_c</a:Name>
+<a:Code>ID_C</a:Code>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o33">
+<a:ObjectID>AD06712F-36BA-428A-9361-099C0995C7FC</a:ObjectID>
+<a:Name>specialite</a:Name>
+<a:Code>SPECIALITE_</a:Code>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968081</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>LA</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o20">
+<a:ObjectID>FA2B8BF9-A2EB-4E74-8F56-0B4E5ACA0CB8</a:ObjectID>
+<a:Name>niveau</a:Name>
+<a:Code>NIVEAU_</a:Code>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o38">
+<a:ObjectID>EDABD622-CCA5-4B6D-9799-71F6071C1A46</a:ObjectID>
+<a:Name>date_limite</a:Name>
+<a:Code>DATE_</a:Code>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>D</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o36">
+<a:ObjectID>D3465F90-648A-4549-87D7-A4C22F5445EC</a:ObjectID>
+<a:Name>date_depot</a:Name>
+<a:Code>DATE_DEPOT</a:Code>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>D</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o40">
+<a:ObjectID>EC52A2BD-02CE-4690-BF9C-4A52F3E19E55</a:ObjectID>
+<a:Name>lieu</a:Name>
+<a:Code>LIEU</a:Code>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o42">
+<a:ObjectID>903A3657-D400-415C-A38F-B5C1745503A1</a:ObjectID>
+<a:Name>url</a:Name>
+<a:Code>URL</a:Code>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o44">
+<a:ObjectID>95084E55-2604-448B-B3FC-A081C07BE9C1</a:ObjectID>
+<a:Name>annonce</a:Name>
+<a:Code>ANNONCE</a:Code>
+<a:CreationDate>1488966737</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967239</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o14">
+<a:ObjectID>26D39E05-5313-40D6-BDF8-86989C6F7CAE</a:ObjectID>
+<a:Name>id_emp</a:Name>
+<a:Code>ID_EMP</a:Code>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o18">
+<a:ObjectID>F62EA505-E47A-4BC6-B09B-E72334FA2D64</a:ObjectID>
+<a:Name>nom_emp</a:Name>
+<a:Code>NOM_EMP</a:Code>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o22">
+<a:ObjectID>669AF024-4A82-47A8-93FF-73518BF19C4A</a:ObjectID>
+<a:Name>experience</a:Name>
+<a:Code>EXPERIENCE</a:Code>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488967666</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o24">
+<a:ObjectID>9BFF8E78-850A-48CC-8444-B2EBFCC7DB9B</a:ObjectID>
+<a:Name>specialite</a:Name>
+<a:Code>SPECIALITE</a:Code>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o26">
+<a:ObjectID>BC15E0EA-F196-468D-8931-DF7109BF33F7</a:ObjectID>
+<a:Name>date_limite</a:Name>
+<a:Code>DATE_LIMITE</a:Code>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>D</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o16">
+<a:ObjectID>D31B35D0-A2E7-4086-BAC7-0BF9BCFBB098</a:ObjectID>
+<a:Name>nom_entreprise</a:Name>
+<a:Code>NOM_ENTREPRISE</a:Code>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o28">
+<a:ObjectID>8BB6FC3F-839E-4480-AACC-51A58C637CD7</a:ObjectID>
+<a:Name>description</a:Name>
+<a:Code>DESCRIPTION</a:Code>
+<a:CreationDate>1488967274</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>TXT</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o47">
+<a:ObjectID>F2554811-B3B6-4915-85B0-F6FC8BE11EAF</a:ObjectID>
+<a:Name>id_stage</a:Name>
+<a:Code>ID_STAGE</a:Code>
+<a:CreationDate>1488967781</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o49">
+<a:ObjectID>34410054-8898-4497-8C96-34A18CC5557D</a:ObjectID>
+<a:Name>nom_stage</a:Name>
+<a:Code>NOM_STAGE</a:Code>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o52">
+<a:ObjectID>E32287FB-213D-40AF-8C49-A4A2BB91F4F2</a:ObjectID>
+<a:Name>niveau</a:Name>
+<a:Code>NIVEAU</a:Code>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o55">
+<a:ObjectID>B84D858F-7EE7-4BCB-BDAB-65C2A6391C47</a:ObjectID>
+<a:Name>duree</a:Name>
+<a:Code>DUREE</a:Code>
+<a:CreationDate>1488967797</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968056</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o60">
+<a:ObjectID>F86D376D-063A-41BC-A0E7-D65C5CCA5DED</a:ObjectID>
+<a:Name>id_user</a:Name>
+<a:Code>ID_USER</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488971014</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o62">
+<a:ObjectID>0FCE5E2F-4EA9-474D-867B-C5F5C4311DCB</a:ObjectID>
+<a:Name>nom</a:Name>
+<a:Code>NOM</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o64">
+<a:ObjectID>62A48B7D-0951-40EC-822C-D244746CC639</a:ObjectID>
+<a:Name>prenom</a:Name>
+<a:Code>PRENOM</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o66">
+<a:ObjectID>82798E6A-572E-4DAC-9CA3-72149A5C25F5</a:ObjectID>
+<a:Name>adresse</a:Name>
+<a:Code>ADRESSE</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o68">
+<a:ObjectID>5FDCE3B1-0074-412E-9772-32E362373DB4</a:ObjectID>
+<a:Name>email</a:Name>
+<a:Code>EMAIL</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o70">
+<a:ObjectID>A2A881DB-7E4A-46FF-BA20-CB706AF53A58</a:ObjectID>
+<a:Name>pwd</a:Name>
+<a:Code>PWD</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o72">
+<a:ObjectID>46573B27-8C41-4805-B9FF-20C0F4DB91B2</a:ObjectID>
+<a:Name>statut</a:Name>
+<a:Code>STATUT</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o74">
+<a:ObjectID>C0D34CA7-AF60-4947-86CF-1BEC471E090A</a:ObjectID>
+<a:Name>fonction</a:Name>
+<a:Code>FONCTION</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o76">
+<a:ObjectID>62B931D5-6AAA-47E2-905E-66A0D97E2BCC</a:ObjectID>
+<a:Name>type</a:Name>
+<a:Code>TYPE</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>A100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o78">
+<a:ObjectID>F8636A41-FEEF-4923-8562-42AFBAA4FA75</a:ObjectID>
+<a:Name>actif</a:Name>
+<a:Code>ACTIF</a:Code>
+<a:CreationDate>1488968101</a:CreationDate>
+<a:Creator>Amady PDG AW</a:Creator>
+<a:ModificationDate>1488968709</a:ModificationDate>
+<a:Modifier>Amady PDG AW</a:Modifier>
+<a:DataType>BL</a:DataType>
+</o:DataItem>
+</c:DataItems>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>
