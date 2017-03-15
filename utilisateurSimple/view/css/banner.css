@@ -1,0 +1,35 @@
+#deroule{
+   width:auto;
+   height:150px;
+   background-color:yellow;
+}
+#deroule img{
+	width:250px;
+    height:80px;
+	margin-top:10px;
+	padding-left:2%;
+}
+#deroule button {
+
+}
+#deroule #p1{
+	color:blue;
+	Font-Weight: Bold;
+	margin-left:60%;
+	text-decoration:none;
+	float:left;
+}
+#deroule #p2{
+	color:blue;
+	Font-Weight: Bold;
+	margin-left:60%;
+	text-decoration:none;
+	float:right;
+}
+#deroule p {
+	color:blue;
+	Font-Weight: Bold;
+	text-align:center;
+	font-style:oblique;
+	
+}

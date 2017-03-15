@@ -1,0 +1,80 @@
+html{
+
+}
+
+#titrearticle{
+background-image: url('../images/titreimg.png');
+width:100%;
+height:20%;
+text-align:right;
+
+font-size:45px;
+text-top:10px;
+margin-left:-15px;
+margin-right:-15px;
+}
+#article{
+background-color:#fff;
+border:1px solid #000000;
+ box-shadow: 5px 5px 5px #888888;
+ max-width:250px;
+ margin-left:-15px;
+ margin-right:-15px;
+ margin-left:30px;
+ margin-top: 5px;
+}
+#htitrearticle{
+font-size:12px;
+font-family:Tahoma;
+font-style:italic;
+float:left;
+
+text-indent:10px;
+}
+
+#htitrearticle2{
+
+}
+h6{
+float:right;
+}
+#corparticle{
+padding-top:15px;
+ margin-left:-15px;
+ margin-right:-15px;
+
+ 
+}
+#titrearticletexte{
+padding-top:10px;
+
+}
+#piedarticle{
+	
+	margin-left:-15px;
+	margin-right:-15px;
+	background-color:#4c4cf1;
+	text-align:center;
+	padding:10px;
+}
+#corparticle{
+	
+}
+#liresuit{
+	background-color:#fff;
+	list-style:none;
+	text-decoration:none;
+}
+#bliresuit{
+	background-color:#fff;
+	color:#4c4cf1;
+}
+
+#pub{
+
+padding-right:5px;
+}
+#body{
+	border-left:5px solid #000000;
+	
+}
